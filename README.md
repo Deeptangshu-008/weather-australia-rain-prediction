@@ -211,11 +211,11 @@ ROC-AUC : 88.34%
 ```
 Final 2017 Test Performance:
 ``` text
-Accuracy : 85.85% , 
-Precision : 74.33% , 
-Recall : 48.95% , 
-F1 Score : 59.03% , 
-ROC-AUC : 87.70%.
+Accuracy : 85.85% 
+Precision : 74.33% 
+Recall : 48.95% 
+F1 Score : 59.03% 
+ROC-AUC : 87.70%
 ```
 The validation ROC-AUC was 0.8834, while the final 2017 test ROC-AUC was 0.8770.
 
