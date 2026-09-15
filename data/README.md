@@ -7,7 +7,6 @@ This project uses the **Rain in Australia (WeatherAUS)** dataset for predicting 
 The dataset is available on Kaggle:
 
 **Rain in Australia**
-
 - Dataset: Rain in Australia / WeatherAUS
 - Target variable: `RainTomorrow`
 - Observations: 145,460
@@ -27,3 +26,24 @@ The CSV file is **not included in this repository** because it is large and is a
 
 1. Download the dataset from Kaggle.
 2. Extract `weatherAUS.csv`.
+3. Place it inside this `data/` directory.
+
+The expected structure is:
+
+```text
+weather-australia-rain-prediction/
+│
+├── data/
+│   └── README.md
+│
+├── images/
+│   ├── confusion_matrix.png
+│   ├── roc_curve.png
+│   ├── feature_importance.png
+│   └── model_comparison.png
+│
+├── weather.ipynb
+├── .gitignore
+├── requirements.txt
+├── LICENSE
+└── README.md
