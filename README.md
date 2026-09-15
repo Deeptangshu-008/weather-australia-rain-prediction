@@ -165,15 +165,15 @@ The goal was not simply to maximize training performance, but to improve validat
 Final XGBoost Parameters:
 ``` text
 XGBClassifier(
-random_state=42
-n_jobs=-1
-max_depth=7
-n_estimators=200
-learning_rate=0.10
-subsample=0.7
-min_child_weight=5
-colsample_bytree=0.9
-reg_alpha=0.1
+random_state=42,
+n_jobs=-1,
+max_depth=7,
+n_estimators=200,
+learning_rate=0.10,
+subsample=0.7,
+min_child_weight=5,
+colsample_bytree=0.9,
+reg_alpha=0.1,
 reg_lambda=1.5
 )
 ```
